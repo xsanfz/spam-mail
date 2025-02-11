@@ -35,8 +35,8 @@ Content-Type: {c}
 Все проекты — они же решение наших задачек — можно разместить на твоём GitHub. Работодатели такое оценят. 
 
 Регистрируйся → %website%  
-На курсы, которые еще не вышли, можно подписаться и получить уведомление о релизе сразу на имейл."""
-          .format(t=title, s=sender, r=recipient, w=website, m=my_name,f=friend_name, c=content))
+На курсы, которые еще не вышли, можно подписаться и получить уведомление о релизе сразу на имейл.""".format
+          (t=title, s=sender, r=recipient, w=website, m=my_name,f=friend_name, c=content))
 
 letter = letter.replace('%friend_name%', friend_name)
 
