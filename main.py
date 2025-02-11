@@ -14,8 +14,7 @@ sender = "rewaqz1@yandex.ru"
 recipient = 'am1dok@yandex.ru'
 content = "text/plain; charset='UTF-8';"
 
-letter = """
-From: {s}
+letter = """From: {s}
 To: {r}
 Subject: {t}
 Content-Type: {c}
